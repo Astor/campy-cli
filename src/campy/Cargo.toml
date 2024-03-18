@@ -1,0 +1,11 @@
+[package]
+name = "campy-lib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+hex = "0.4.3"
+ring = "0.17.8"
